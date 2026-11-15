@@ -1,0 +1,60 @@
+{
+ "args": {
+  "agent": "drrn",
+  "feat": "word",
+  "match": true,
+  "lr": 0.0005,
+  "tok_drop": 0.0,
+  "seed": 100,
+  "episodes": 4000,
+  "eval_every": 1000,
+  "final_eval": "val",
+  "out": "results/tune",
+  "tag": "_drop0.0"
+ },
+ "final_eval": "val",
+ "curve": [
+  {
+   "episode": 0,
+   "return": -2.34,
+   "steps": 50.0,
+   "success": 0.0
+  },
+  {
+   "episode": 1000,
+   "return": -0.713,
+   "steps": 45.86,
+   "success": 0.11
+  },
+  {
+   "episode": 2000,
+   "return": 0.026499999999999958,
+   "steps": 44.47,
+   "success": 0.16
+  },
+  {
+   "episode": 3000,
+   "return": 2.0949999999999998,
+   "steps": 39.5,
+   "success": 0.31
+  },
+  {
+   "episode": 4000,
+   "return": 3.7009999999999996,
+   "steps": 36.38,
+   "success": 0.44
+  }
+ ],
+ "final": {
+  "train": {
+   "return": 3.9980000000000007,
+   "steps": 35.34,
+   "success": 0.46
+  },
+  "val_names": {
+   "return": -1.8997499999999996,
+   "steps": 48.495,
+   "success": 0.035
+  }
+ }
+}

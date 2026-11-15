@@ -1,0 +1,40 @@
+{
+ "args": {
+  "agent": "random",
+  "feat": "word",
+  "match": false,
+  "lr": 0.0005,
+  "aug": false,
+  "tok_drop": 0.0,
+  "seed": 8,
+  "episodes": 4000,
+  "eval_every": 1000,
+  "final_eval": "test",
+  "out": "results/final",
+  "tag": ""
+ },
+ "final_eval": "test",
+ "curve": [],
+ "final": {
+  "train": {
+   "return": -0.97725,
+   "steps": 48.945,
+   "success": 0.065
+  },
+  "train_aug": {
+   "return": -0.8694999999999999,
+   "steps": 48.69,
+   "success": 0.075
+  },
+  "new_names": {
+   "return": -1.05625,
+   "steps": 48.925,
+   "success": 0.06
+  },
+  "paraphrase": {
+   "return": -1.36025,
+   "steps": 49.505,
+   "success": 0.035
+  }
+ }
+}

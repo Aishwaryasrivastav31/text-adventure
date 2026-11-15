@@ -1,0 +1,71 @@
+{
+ "args": {
+  "agent": "drrn",
+  "feat": "ngram",
+  "match": false,
+  "lr": 0.0005,
+  "aug": false,
+  "tok_drop": 0.0,
+  "seed": 7,
+  "episodes": 4000,
+  "eval_every": 1000,
+  "final_eval": "test",
+  "out": "results/final",
+  "tag": ""
+ },
+ "final_eval": "test",
+ "curve": [
+  {
+   "episode": 0,
+   "return": -2.42,
+   "steps": 50.0,
+   "success": 0.0
+  },
+  {
+   "episode": 1000,
+   "return": -0.8104999999999998,
+   "steps": 47.01,
+   "success": 0.09
+  },
+  {
+   "episode": 2000,
+   "return": 1.4439999999999995,
+   "steps": 41.72,
+   "success": 0.26
+  },
+  {
+   "episode": 3000,
+   "return": 3.01,
+   "steps": 38.2,
+   "success": 0.39
+  },
+  {
+   "episode": 4000,
+   "return": 3.4384999999999994,
+   "steps": 36.43,
+   "success": 0.42
+  }
+ ],
+ "final": {
+  "train": {
+   "return": 5.138749999999999,
+   "steps": 32.125,
+   "success": 0.55
+  },
+  "train_aug": {
+   "return": -2.2649999999999997,
+   "steps": 50.0,
+   "success": 0.0
+  },
+  "new_names": {
+   "return": -2.32,
+   "steps": 50.0,
+   "success": 0.0
+  },
+  "paraphrase": {
+   "return": -2.18,
+   "steps": 50.0,
+   "success": 0.0
+  }
+ }
+}
